@@ -5,7 +5,7 @@ import { Badge } from "./ui/badge";
 const Promos = () => {
   const promosData = [
     {
-      title: "🔥 À EMPORTER (7/7)",
+      title: "🔥 À EMPORTER (7j/7)",
       items: [
         "1 pizza Senior achetée = la 2e à 2,00 €",
         "1 pizza Familiale achetée = la 2e à 4,00 €"
@@ -14,7 +14,7 @@ const Promos = () => {
       badge: "À emporter"
     },
     {
-      title: "🔥 EN LIVRAISON (7/7)",
+      title: "🔥 EN LIVRAISON (7j/7)",
       items: [
         "1 pizza achetée = la 2e à -50% (la moins chère)",
         "2 pizzas achetées = la 3e offerte (la moins chère)"
