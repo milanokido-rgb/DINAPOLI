@@ -28,9 +28,9 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="https://customer-assets.emergentagent.com/job_9612bbd2-75d2-4166-85ae-9de002148fbf/artifacts/nf8q2xlu_ChatGPT%20Image%2019%20sept.%202025%2C%2022_08_56.png" 
+                src="https://customer-assets.emergentagent.com/job_9612bbd2-75d2-4166-85ae-9de002148fbf/artifacts/a2vnov45_ChatGPT%20Image%2019%20sept.%202025%2C%2022_49_40.png" 
                 alt="DI NAPOLI PIZZA Logo" 
-                className="h-12 w-12"
+                className="h-14 w-14"
               />
               <div>
                 <h3 className="text-xl font-bold">DI NAPOLI PIZZA</h3>
