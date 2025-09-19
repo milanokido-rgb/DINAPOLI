@@ -98,9 +98,8 @@ const Navbar = ({ isOpen }) => {
                 <button
                   key={item.label}
                   onClick={() => scrollToSection(item.href)}
-                  className="block w-full text-left px-4 py-2 hover:bg-gray-700 flex items-center space-x-2"
+                  className="block w-full text-left px-4 py-2 hover:bg-gray-700"
                 >
-                  <span>{item.icon}</span>
                   <span>{item.label}</span>
                 </button>
               ))}
