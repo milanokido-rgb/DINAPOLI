@@ -74,9 +74,6 @@ const SpecialOffers = () => {
                 <p className="text-[#5B6472] leading-relaxed">
                   {offer.description}
                 </p>
-                <button className="w-full mt-4 bg-[#0B1D39] text-white py-3 rounded-lg font-semibold hover:bg-[#09152A] transition-colors">
-                  Commander
-                </button>
               </CardContent>
             </Card>
           ))}
