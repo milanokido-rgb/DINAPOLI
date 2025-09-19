@@ -52,9 +52,8 @@ const Navbar = ({ isOpen }) => {
               <button
                 key={item.label}
                 onClick={() => scrollToSection(item.href)}
-                className="hover:text-gray-300 transition-colors text-sm font-medium flex items-center space-x-1"
+                className="hover:text-gray-300 transition-colors text-sm font-medium"
               >
-                <span>{item.icon}</span>
                 <span>{item.label}</span>
               </button>
             ))}
