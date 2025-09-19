@@ -28,9 +28,9 @@ const Navbar = ({ isOpen }) => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="https://customer-assets.emergentagent.com/job_9612bbd2-75d2-4166-85ae-9de002148fbf/artifacts/nf8q2xlu_ChatGPT%20Image%2019%20sept.%202025%2C%2022_08_56.png" 
+              src="https://customer-assets.emergentagent.com/job_9612bbd2-75d2-4166-85ae-9de002148fbf/artifacts/a2vnov45_ChatGPT%20Image%2019%20sept.%202025%2C%2022_49_40.png" 
               alt="DI NAPOLI PIZZA Logo" 
-              className="h-10 w-10"
+              className="h-12 w-12"
             />
             <div className="font-bold text-lg">DI NAPOLI PIZZA</div>
           </div>
