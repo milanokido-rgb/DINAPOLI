@@ -29,7 +29,13 @@ const Menu = () => {
       id: "creme",
       name: "Crème fraîche",
       prices: { junior: "9,50 €", senior: "15,50 €", familiale: "21,50 €" },
-      pizzas: ["Chèvre Miel", "Chicken", "Parmentière", "Venezia", "Milano", "Tartiflette", "Formaggi", "Rimini", "Pizza du Chef", "Raclette [Nouveau]", "Cannibale [Nouveau]"]
+      pizzas: ["Chèvre Miel", "Chicken", "Parmentière", "Venezia", "Milano", "Tartiflette", "Formaggi", "Rimini", "Pizza du Chef", "Raclette", "Cannibale"]
+    },
+    {
+      id: "speciale",
+      name: "Pizzas Spéciale",
+      prices: { junior: "11,00 €", senior: "17,00 €", familiale: "23,00 €" },
+      pizzas: ["Saumon"]
     },
     {
       id: "nouvelles",
