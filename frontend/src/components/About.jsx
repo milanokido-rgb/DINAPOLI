@@ -30,8 +30,7 @@ const About = () => {
     <section id="apropos" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0B1D39] mb-4 flex items-center justify-center space-x-3">
-            <span>ℹ️</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#0B1D39] mb-4 flex items-center justify-center space-x-3">
             <span>À propos</span>
           </h2>
           <p className="text-xl text-[#5B6472] max-w-3xl mx-auto leading-relaxed">
