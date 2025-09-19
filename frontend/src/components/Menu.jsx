@@ -110,12 +110,19 @@ const Menu = () => {
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                       {category.pizzas.map((pizza, index) => (
                         <div key={index} className="bg-gray-50 p-3 rounded-lg hover:bg-gray-100 transition-colors">
-                          <span className="text-[#0B1D39] font-medium">{pizza}</span>
-                          {(pizza === "Raclette" || pizza === "Cannibale") && (
-                            <Badge variant="secondary" className="ml-2 bg-[#20A35B] text-white text-xs">
-                              Nouveau
-                            </Badge>
-                          )}
+                          <div className="flex flex-col">
+                            <div className="flex items-center">
+                              <span className="text-[#0B1D39] font-medium">{pizza}</span>
+                              {(pizza === "Raclette" || pizza === "Cannibale") && (
+                                <Badge variant="secondary" className="ml-2 bg-[#20A35B] text-white text-xs">
+                                  Nouveau
+                                </Badge>
+                              )}
+                            </div>
+                            {pizza === "Saumon" && (
+                              <span className="text-xs text-[#5B6472] mt-1">crème, saumon fumé, œufs de lump, citron</span>
+                            )}
+                          </div>
                         </div>
                       ))}
                     </div>
