@@ -5,12 +5,12 @@ const Navbar = ({ isOpen }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { href: "#promos", label: "Promos", icon: "🎯" },
-    { href: "#menu", label: "Menu", icon: "🍕" },
-    { href: "#infos", label: "Infos", icon: "📋" },
-    { href: "#galerie", label: "Galerie", icon: "🖼️" },
-    { href: "#apropos", label: "À propos", icon: "ℹ️" },
-    { href: "#contact", label: "Contact", icon: "✉️" }
+    { href: "#promos", label: "Promos" },
+    { href: "#menu", label: "Menu" },
+    { href: "#infos", label: "Infos" },
+    { href: "#galerie", label: "Galerie" },
+    { href: "#apropos", label: "À propos" },
+    { href: "#contact", label: "Contact" }
   ];
 
   const scrollToSection = (href) => {
