@@ -26,16 +26,16 @@ export const mockData = {
       alt: "Pizza gastronomique aux fruits"
     },
     {
-      url: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxwaXp6YXxlbnwwfHx8fDE3NTgzMTI4NzV8MA&ixlib=rb-4.1.0&q=85",
-      alt: "Pizza Hawaiian Chicken"
+      url: "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+      alt: "Tacos frais avec garnitures"
     },
     {
-      url: "https://images.unsplash.com/photo-1593504049359-74330189a345?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwzfHxwaXp6YXxlbnwwfHx8fDE3NTgzMTI4NzV8MA&ixlib=rb-4.1.0&q=85",
-      alt: "Pizza au fromage fondant"
+      url: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af",
+      alt: "Salade fraîche du restaurant"
     },
     {
-      url: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHw0fHxwaXp6YXxlbnwwfHx8fDE3NTgzMTI4NzV8MA&ixlib=rb-4.1.0&q=85",
-      alt: "Pizza fraîche aux herbes"
+      url: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9",
+      alt: "Tiramisu maison"
     }
   ]
 };
