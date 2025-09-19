@@ -55,13 +55,6 @@ const Hero = () => {
         <div className="inline-block bg-[#20A35B] text-white px-6 py-3 rounded-full font-semibold text-lg shadow-lg">
           🚚 Livraison gratuite 7j/7
         </div>
-        
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-[-10px] animate-bounce">
-          <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
-          </div>
-        </div>
       </div>
     </section>
   );
