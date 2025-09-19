@@ -112,7 +112,7 @@ const Menu = () => {
                       {category.pizzas.map((pizza, index) => (
                         <div key={index} className="bg-gray-50 p-3 rounded-lg hover:bg-gray-100 transition-colors">
                           <span className="text-[#0B1D39] font-medium">{pizza}</span>
-                          {pizza.includes("[Nouveau]") && (
+                          {(pizza === "Raclette" || pizza === "Cannibale") && (
                             <Badge variant="secondary" className="ml-2 bg-[#20A35B] text-white text-xs">
                               Nouveau
                             </Badge>
