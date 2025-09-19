@@ -46,14 +46,13 @@ const Menu = () => {
   ];
 
   const otherItems = [
-    { category: "🍕 Pizzas Spéciale", items: [{ name: "Saumon", price: "Jr 11,00 € | Sr 17,00 € | Fam 23,00 €", description: "crème, saumon fumé, œufs de lump, citron" }] },
     { category: "🥗 Salades", items: [{ name: "Salade verte", price: "4,00 €" }, { name: "Niçoise/Printanière/Au poulet/Chèvre chaud", price: "7,90 €" }] },
     { category: "🌮 Tex-Mex", items: [{ name: "10 nuggets / 8 wings / 8 tenders / Mix Mexico", price: "9,00 €", description: "avec potatoes" }] },
     { category: "🥪 Paninis", items: [{ name: "4 Fromages, Merguez, Jambon* Fromage, Saumon fumé, Thon, Poulet, Viande hachée", price: "6,50 €", description: "+ 1 Coca 33 cl offert" }] },
     { category: "🌯 Tacos", items: [{ name: "1 viande", price: "8,50 €" }, { name: "2 viandes", price: "9,50 €" }] },
     { category: "🍔 Burgers", items: [{ name: "Cheese", price: "6,50 €" }, { name: "Double", price: "7,50 €" }, { name: "Triple", price: "8,50 €" }] },
     { category: "🥖 Sandwichs", items: [{ name: "Américain, Le Kebab, Cordon Bleu", price: "9,50 €" }] },
-    { category: "🥤 Boissons", items: [{ name: "33 cl", price: "1,50 €" }, { name: "1,5 L", price: "3,00 €" }, { name: "Tropico 1,5 L", price: "3,50 €" }] },
+    { category: "🥤 Boissons", items: [{ name: "33 cl", price: "1,50 €" }, { name: "1,5 L", price: "3,00 €" }, { name: "Tropico 1,5 L", price: "3,50 €" }, { name: "Oasis 2L", price: "3,50 €" }] },
     { category: "🍰 Desserts", items: [{ name: "Brownie", price: "2,50 €" }, { name: "Tarte pommes/Daim", price: "3,00 €" }, { name: "Tiramisu", price: "3,00 €" }, { name: "Glaces Häagen-Dazs 100ml", price: "4,00 €" }, { name: "Glaces Häagen-Dazs 500ml", price: "7,50 €" }] }
   ];
 
