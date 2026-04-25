@@ -35,17 +35,6 @@ const Navbar = ({ isOpen }) => {
             <div className="font-bold text-lg">DI NAPOLI PIZZA</div>
           </div>
 
-          {/* Status Badge */}
-          <div className="hidden md:flex">
-            <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-              isOpen 
-                ? 'bg-[#20A35B] text-white' 
-                : 'bg-[#D7263D] text-white'
-            }`}>
-              {isOpen ? 'Ouvert' : 'Fermé'}
-            </span>
-          </div>
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
             {navItems.map((item) => (
@@ -83,17 +72,6 @@ const Navbar = ({ isOpen }) => {
         {isMobileMenuOpen && (
           <div className="md:hidden border-t border-gray-700">
             <div className="py-4 space-y-3">
-              {/* Status Badge Mobile */}
-              <div className="flex justify-center mb-4">
-                <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                  isOpen 
-                    ? 'bg-[#20A35B] text-white' 
-                    : 'bg-[#D7263D] text-white'
-                }`}>
-                  {isOpen ? 'Ouvert' : 'Fermé'}
-                </span>
-              </div>
-              
               {navItems.map((item) => (
                 <button
                   key={item.label}

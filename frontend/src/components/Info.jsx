@@ -63,26 +63,6 @@ const Info = ({ isOpen, nextOpening }) => {
                 </div>
               </div>
 
-              {/* Status */}
-              <div className="flex items-center space-x-3">
-                <Clock className="text-[#20A35B]" size={20} />
-                <div>
-                  <p className="font-semibold text-[#0B1D39]">Statut actuel</p>
-                  <div className="flex items-center space-x-2">
-                    <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                      isOpen 
-                        ? 'bg-[#20A35B] text-white' 
-                        : 'bg-[#D7263D] text-white'
-                    }`}>
-                      {isOpen ? 'Ouvert' : 'Fermé'}
-                    </span>
-                    {nextOpening && (
-                      <span className="text-sm text-[#5B6472]">{nextOpening}</span>
-                    )}
-                  </div>
-                </div>
-              </div>
-
               {/* Features */}
               {mockData.businessInfo.features.map((feature, index) => (
                 <div key={index} className="flex items-center space-x-3">
