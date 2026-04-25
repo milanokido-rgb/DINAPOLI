@@ -6,6 +6,7 @@ const Navbar = ({ isOpen }) => {
 
   const navItems = [
     { href: "#promos", label: "Promos" },
+    { href: "#formules", label: "Formules Midi" },
     { href: "#menu", label: "Menu" },
     { href: "#infos", label: "Infos" },
     { href: "#galerie", label: "Galerie" },

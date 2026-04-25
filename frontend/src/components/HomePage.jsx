@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Promos from "./Promos";
+import FormulesMidi from "./FormulesMidi";
 import SpecialOffers from "./SpecialOffers";
 import Menu from "./Menu";
 import Info from "./Info";
@@ -90,6 +91,7 @@ const HomePage = () => {
       <Navbar isOpen={isOpen} />
       <Hero />
       <Promos />
+      <FormulesMidi />
       <SpecialOffers />
       <Menu />
       <Info isOpen={isOpen} nextOpening={nextOpening} />
