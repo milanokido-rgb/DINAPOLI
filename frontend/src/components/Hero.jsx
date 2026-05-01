@@ -25,7 +25,7 @@ const Hero = () => {
 
       {/* Uber Eats Floating Badge - Left Side */}
       <a
-        href="https://www.ubereats.com/fr/store/pizza-di-napoli/T70SRxwBS1SLpv2e81dqIQ"
+        href="https://www.ubereats.com/store-browse-uuid/91b62f58-10a6-56d2-88f4-1edbaf1efe5e?diningMode=DELIVERY"
         target="_blank"
         rel="noopener noreferrer"
         data-testid="ubereats-hero-badge"
@@ -43,7 +43,7 @@ const Hero = () => {
 
       {/* Uber Eats Mobile Pill */}
       <a
-        href="https://www.ubereats.com/fr/store/pizza-di-napoli/T70SRxwBS1SLpv2e81dqIQ"
+        href="https://www.ubereats.com/store-browse-uuid/91b62f58-10a6-56d2-88f4-1edbaf1efe5e?diningMode=DELIVERY"
         target="_blank"
         rel="noopener noreferrer"
         data-testid="ubereats-hero-badge-mobile"
