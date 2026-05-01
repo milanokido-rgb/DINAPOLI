@@ -1,5 +1,12 @@
 import React from "react";
-import { Phone, MapPin, Clock, Heart } from "lucide-react";
+import { Phone, MapPin, Clock, Heart, Building2, FileText } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "./ui/dialog";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -137,13 +144,106 @@ const Footer = () => {
               © {currentYear} DI NAPOLI PIZZA. Tous droits réservés.
             </div>
             <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <button
-                onClick={() => scrollToSection('#mentions-legales')}
-                data-testid="footer-mentions-legales-link"
-                className="text-gray-300 hover:text-white underline-offset-4 hover:underline transition-colors"
-              >
-                Mentions légales
-              </button>
+              <Dialog>
+                <DialogTrigger asChild>
+                  <button
+                    data-testid="footer-mentions-legales-link"
+                    className="text-gray-300 hover:text-white underline-offset-4 hover:underline transition-colors"
+                  >
+                    Mentions légales
+                  </button>
+                </DialogTrigger>
+                <DialogContent
+                  className="max-w-2xl max-h-[85vh] overflow-y-auto bg-white text-[#0B1D39]"
+                  data-testid="mentions-legales-dialog"
+                >
+                  <DialogHeader>
+                    <div className="flex items-center space-x-3 mb-2">
+                      <div className="w-10 h-10 rounded-full bg-[#0B1D39] text-white flex items-center justify-center">
+                        <FileText size={20} />
+                      </div>
+                      <DialogTitle className="text-2xl font-bold">
+                        Mentions légales
+                      </DialogTitle>
+                    </div>
+                  </DialogHeader>
+
+                  <div className="space-y-6 mt-4">
+                    <div className="bg-[#F5F7FA] rounded-lg p-5">
+                      <h3 className="font-semibold text-[#0B1D39] mb-3 flex items-center space-x-2">
+                        <Building2 size={18} className="text-[#20A35B]" />
+                        <span>Éditeur du site</span>
+                      </h3>
+                      <dl className="space-y-2 text-sm">
+                        <div className="flex flex-col sm:flex-row sm:space-x-2">
+                          <dt className="font-semibold sm:w-40">Nom du restaurant :</dt>
+                          <dd>DI NAPOLI PIZZA</dd>
+                        </div>
+                        <div className="flex flex-col sm:flex-row sm:space-x-2">
+                          <dt className="font-semibold sm:w-40">Adresse :</dt>
+                          <dd>
+                            50 Rue de la Ferme, 91400 Orsay
+                            <br />
+                            Quartier Mondétour, France
+                          </dd>
+                        </div>
+                        <div className="flex flex-col sm:flex-row sm:space-x-2">
+                          <dt className="font-semibold sm:w-40">Téléphone :</dt>
+                          <dd>
+                            <a
+                              href="tel:0169281414"
+                              className="text-[#20A35B] hover:underline font-medium"
+                            >
+                              01 69 28 14 14
+                            </a>
+                          </dd>
+                        </div>
+                      </dl>
+                    </div>
+
+                    <div className="space-y-4 text-sm leading-relaxed text-[#5B6472]">
+                      <div>
+                        <h3 className="font-semibold text-[#0B1D39] mb-1">
+                          Responsabilité
+                        </h3>
+                        <p>
+                          Le restaurant <strong>DI NAPOLI PIZZA</strong> est
+                          seul responsable du contenu, de la publication, de
+                          l'hébergement et de la maintenance du présent site
+                          internet. Toute responsabilité liée à l'utilisation
+                          du site relève exclusivement du restaurant.
+                        </p>
+                      </div>
+
+                      <div>
+                        <h3 className="font-semibold text-[#0B1D39] mb-1">
+                          Nature du site
+                        </h3>
+                        <p>
+                          Ce site est un <strong>site vitrine</strong> destiné
+                          uniquement à la présentation du restaurant, de ses
+                          menus et de ses offres. Il ne réalise{" "}
+                          <strong>aucune collecte de données personnelles</strong>{" "}
+                          et ne propose aucun formulaire en ligne.
+                        </p>
+                      </div>
+
+                      <div>
+                        <h3 className="font-semibold text-[#0B1D39] mb-1">
+                          Propriété intellectuelle
+                        </h3>
+                        <p>
+                          L'ensemble des contenus présents sur ce site (textes,
+                          images, logos, photographies) est la propriété
+                          exclusive de DI NAPOLI PIZZA. Toute reproduction,
+                          totale ou partielle, est interdite sans autorisation
+                          préalable.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </DialogContent>
+              </Dialog>
               <span>•</span>
               <span>100% Halal certifié</span>
               <span>•</span>
