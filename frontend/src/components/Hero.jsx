@@ -25,7 +25,7 @@ const Hero = () => {
 
       {/* Uber Eats Floating Badge - Left Side */}
       <a
-        href="https://www.ubereats.com/store-browse-uuid/91b62f58-10a6-56d2-88f4-1edbaf1efe5e?diningMode=DELIVERY"
+        href="https://www.ubereats.com/store-browse-uuid/b11d0198-7b7b-5ff6-8a74-36c17a153984?diningMode=DELIVERY"
         target="_blank"
         rel="noopener noreferrer"
         data-testid="ubereats-hero-badge"
@@ -43,7 +43,7 @@ const Hero = () => {
 
       {/* Uber Eats Mobile Pill */}
       <a
-        href="https://www.ubereats.com/store-browse-uuid/91b62f58-10a6-56d2-88f4-1edbaf1efe5e?diningMode=DELIVERY"
+        href="https://www.ubereats.com/store-browse-uuid/b11d0198-7b7b-5ff6-8a74-36c17a153984?diningMode=DELIVERY"
         target="_blank"
         rel="noopener noreferrer"
         data-testid="ubereats-hero-badge-mobile"
