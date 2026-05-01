@@ -230,6 +230,22 @@ const Footer = () => {
 
                       <div>
                         <h3 className="font-semibold text-[#0B1D39] mb-1">
+                          Hébergement
+                        </h3>
+                        <p>
+                          Le site est hébergé par :<br />
+                          <strong>Netlify, Inc.</strong>
+                          <br />
+                          2325 3rd Street, Suite 296
+                          <br />
+                          San Francisco, CA 94107
+                          <br />
+                          USA
+                        </p>
+                      </div>
+
+                      <div>
+                        <h3 className="font-semibold text-[#0B1D39] mb-1">
                           Propriété intellectuelle
                         </h3>
                         <p>
