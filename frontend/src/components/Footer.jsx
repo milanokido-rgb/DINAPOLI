@@ -137,11 +137,17 @@ const Footer = () => {
               © {currentYear} DI NAPOLI PIZZA. Tous droits réservés.
             </div>
             <div className="flex items-center space-x-6 text-sm text-gray-400">
+              <button
+                onClick={() => scrollToSection('#mentions-legales')}
+                data-testid="footer-mentions-legales-link"
+                className="text-gray-300 hover:text-white underline-offset-4 hover:underline transition-colors"
+              >
+                Mentions légales
+              </button>
+              <span>•</span>
               <span>100% Halal certifié</span>
               <span>•</span>
               <span>Pâte fraîche quotidienne</span>
-              <span>•</span>
-              <span>Livraison gratuite</span>
             </div>
           </div>
           

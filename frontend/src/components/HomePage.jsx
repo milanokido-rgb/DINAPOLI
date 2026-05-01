@@ -9,6 +9,7 @@ import Info from "./Info";
 import Gallery from "./Gallery";
 import About from "./About";
 import Contact from "./Contact";
+import MentionsLegales from "./MentionsLegales";
 import Footer from "./Footer";
 import { mockData } from "../data/mock";
 
@@ -98,6 +99,7 @@ const HomePage = () => {
       <Gallery />
       <About />
       <Contact />
+      <MentionsLegales />
       <Footer />
       
       {/* Floating delivery badge */}

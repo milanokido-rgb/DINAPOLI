@@ -22,7 +22,40 @@ const Hero = () => {
       
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-55" />
-      
+
+      {/* Uber Eats Floating Badge - Left Side */}
+      <a
+        href="https://www.ubereats.com/fr/store/pizza-di-napoli/T70SRxwBS1SLpv2e81dqIQ"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-testid="ubereats-hero-badge"
+        aria-label="Commander sur Uber Eats"
+        className="hidden md:flex absolute left-6 lg:left-12 top-1/2 -translate-y-1/2 z-20 group"
+      >
+        <div className="relative ue-float">
+          <div className="relative ue-pulse-ring flex flex-col items-center justify-center w-32 h-32 lg:w-40 lg:h-40 rounded-full bg-black border-4 border-[#06C167] shadow-2xl transition-transform duration-300 group-hover:scale-110">
+            <span className="text-white font-extrabold text-base lg:text-lg leading-none tracking-tight">Uber</span>
+            <span className="text-[#06C167] font-extrabold text-xl lg:text-2xl leading-none tracking-tight mt-1">Eats</span>
+            <span className="mt-2 text-[10px] lg:text-xs uppercase tracking-widest text-white/80">Commander</span>
+          </div>
+        </div>
+      </a>
+
+      {/* Uber Eats Mobile Pill */}
+      <a
+        href="https://www.ubereats.com/fr/store/pizza-di-napoli/T70SRxwBS1SLpv2e81dqIQ"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-testid="ubereats-hero-badge-mobile"
+        aria-label="Commander sur Uber Eats"
+        className="md:hidden absolute left-1/2 -translate-x-1/2 top-20 z-20 ue-float"
+      >
+        <div className="flex items-center space-x-2 bg-black border-2 border-[#06C167] rounded-full px-4 py-2 shadow-xl">
+          <span className="text-white font-extrabold text-sm">Uber</span>
+          <span className="text-[#06C167] font-extrabold text-base">Eats</span>
+        </div>
+      </a>
+
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
